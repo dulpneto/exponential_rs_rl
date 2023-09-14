@@ -47,6 +47,7 @@ Run: python3 RLRunner.py -t QL -b Target -l -1.0
 Run: python3 RLRunner.py -t DQN -b Target -l -1.0
 ## Implementation of DeepQNetwork with Convolutional Network
 Run: python3 RLRunner.py -t DQN_CONV -b Target -l -1.0
+
 NOTE: This algorithm is available only for RIver Crossing Domain
 
 
@@ -56,7 +57,9 @@ It refreshes a Q-table every time the target model is trained. It is useful to s
 
 
 Run: python3 RLRunner.py -t DQN_CACHED -b Target -l -1.0
+
 Or
+
 Run: python3 RLRunner.py -t DQN_CONV_CACHED -b Target -l -1.0
 
 
@@ -67,7 +70,9 @@ It creates a Q-Table and uses it to learn, the model is trained by not used to u
 
 
 Run: python3 RLRunner.py -t DQN_SKIP -b Target -l -1.0
+
 Or 
+
 Run: python3 RLRunner.py -t DQN_CONV_SKIP -b Target -l -1.0
 
 
